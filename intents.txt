@@ -1,0 +1,4 @@
+getDateIntent {Date}
+getDateIntent I want {Date}
+getDateIntent Get the skills for {Date}
+getDateIntent Get the skills released on {Date}
