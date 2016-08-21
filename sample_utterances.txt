@@ -1,0 +1,33 @@
+getInfoIntent tell me {Info}
+getInfoIntent tell me about {Info}
+
+getDateIntent {Date}
+getDateIntent Get skills for {Date}
+getDateIntent Get the skills for {Date}
+getDateIntent Get the skills released on {Date}
+
+getAuthorIntent what skill did {Author} write
+getAuthorIntent what did {Author} write
+getAuthorIntent did {Author} write anything
+
+getSkillNameIntent find skills named {Name}
+getSkillNameIntent find skill called {Name}
+getSkillNameIntent find {Name} skills
+getSkillNameIntent find {Name}
+
+getNumberSkillsIntent how many skills are there
+getNumberSkillsIntent how many skills
+
+getWhenUpdatedIntent when was the list updated
+getWhenUpdatedIntent when updated
+getWhenUpdatedIntent when was it updated
+
+getDescriptionIntent describe {Description}
+getDescriptionIntent what is description of {Description}
+getDescriptionIntent can you describe {Description}
+
+getInvocationIntent how to invoke {Invocation}
+getInvocationIntent open {Invocation}
+getInvocationIntent how do i open {Invocation}
+getInvocationIntent launch {Invocation}
+getInvocationIntent how do i launch {Invocation}
