@@ -1,6 +1,6 @@
 {
   "intents": [
-    {
+     {
       "intent": "getDateIntent",
       "slots": [
         {
@@ -10,7 +10,58 @@
       ]
     },
     {
+      "intent": "getInfoIntent",
+      "slots": [
+        {
+          "name": "Info",
+          "type": "ANSWERS"
+        }
+      ]
+    },
+    {
+      "intent": "getAuthorIntent",
+      "slots": [
+        {
+          "name": "Author",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "getDescriptionIntent",
+      "slots": [
+        {
+          "name": "Description",
+          "type": "ANSWERS"
+        }
+      ]
+    },
+    {
+      "intent": "getInvocationIntent",
+      "slots": [
+        {
+          "name": "Invocation",
+          "type": "ANSWERS"
+        }
+      ]
+    },
+    {
+      "intent": "getSkillNameIntent",
+      "slots": [
+        {
+          "name": "Name",
+          "type": "ANSWERS"
+        }
+      ]
+    },
+     {
       "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "getWhenUpdatedIntent"
+    },
+    {
+      "intent": "getNumberSkillsIntent"
     },
     {
       "intent": "AMAZON.YesIntent"
